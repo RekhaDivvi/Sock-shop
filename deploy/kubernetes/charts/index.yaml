@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  helm-chart:
+  - apiVersion: v1
+    created: "2021-02-03T05:15:41.531994164-05:00"
+    dependencies:
+    - name: nginx-ingress
+      repository: https://charts.helm.sh/stable
+      version: 0.4.2
+    description: A Helm chart for Sock Shop
+    digest: a4ef58ca9af8ebe2524e6646c6d55a9fc324f5899f3ec62aed7125a5352cc050
+    home: https://github.com/microservices-demo/microservices-demo
+    name: helm-chart
+    urls:
+    - helm-chart-0.2.0.tgz
+    version: 0.2.0
+generated: "2021-02-03T05:15:41.526690292-05:00"
